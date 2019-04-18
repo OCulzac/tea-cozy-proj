@@ -190,3 +190,22 @@ nav span a {
 .localeitem h5 {
   margin: 15px;
 }
+
+/*----------------------------------------------------------------
+  Contact Section
+*/
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+#contact > h2 {
+  margin-top: 10px;
+  margin-bottom: 1.4em;
+}
+
+#contact > h5 {
+  margin-bottom: 1.2em;
+}
