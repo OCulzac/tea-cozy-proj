@@ -40,6 +40,18 @@ body {
   text-align: center;
 }
 
+/*----------------------------------------------------------------
+  Container
+*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------------------
+  Header Navigation bar
+*/
+
 header {
   display: flex;
   position: fixed;
@@ -68,3 +80,35 @@ nav span {
 nav span a {
   color: #eee;
 }
+
+/*----------------------------------------------------------------
+  Mission
+*/
+
+#mission {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#mission .content-wrapper {
+  margin: auto 0;
+  align-items: center;
+  background-color: #000;
+}
+
+#mission h2 {
+  margin: 10px;
+}
+
+#mission h4 {
+  margin: 10px;
+}
+
+/*----------------------------------------------------------------
+  Featured Tea
+*/
