@@ -143,3 +143,45 @@ nav span a {
   height: 200px;
   width: 300px;
 }
+
+/*----------------------------------------------------------------
+  Location Section
+*/
+
+#locale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/img-locations-background.jpg');
+  height: 600px;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#locale > h3 {
+  color: #999;
+  margin: 0 auto;
+  order: -1;
+  flex: 1 0 100%;
+}
+
+.localeitem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto 40px;
+  width: 300px;
+  height: 250px;
+  background: #000;
+  opacity: 1;
+}
+
+.localeitem h3 {
+  margin: 20px;
+}
+.localeitem h5 {
+  margin: 15px;
+}
