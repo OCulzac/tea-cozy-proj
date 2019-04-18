@@ -41,18 +41,30 @@ body {
 }
 
 header {
+  display: flex;
+  position: fixed;
   height: 69px;
   width: 100%;
-  display: flex;
-  border-bottom: 1px solid #fff;
-  position: fixed;
+  border-bottom: 1px solid #fff5ee;
+  background-color: #000;
+  z-index: 99;
+  align-items: center;
 }
 
-.logo img {
+header .logo img {
   height: 50px;
   width: auto;
-  margin: 10px 10px;
+  margin-left: 10px;
 }
 
 header nav {
+  margin-left: auto;
+}
+
+nav span {
+  margin-right: 10px;
+}
+
+nav span a {
+  color: #eee;
 }
