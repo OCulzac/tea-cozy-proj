@@ -176,6 +176,8 @@ nav span a {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
+  /*fix 1*/
+  max-width: 100%;
 }
 
 .localeitem {
@@ -187,6 +189,7 @@ nav span a {
   height: 250px;
   background: #000;
   opacity: 1;
+  margin: 15px;
 }
 
 .localeitem h3 {
@@ -232,18 +235,21 @@ footer {
   /*Header and navigation*/
   header {
     display: block;
-    max-width: 250px;
-    height: auto;
   }
 
   header > .logo {
     position: relative;
     top: 10px;
-    margin: 0 auto;
   }
   header > label {
     display: inline-block;
     cursor: pointer;
+    /*fix 2*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   header nav {
     margin: 0;
