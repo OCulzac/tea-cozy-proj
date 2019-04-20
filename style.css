@@ -232,19 +232,17 @@ footer {
   /*Header and navigation*/
   header {
     display: block;
+    max-width: 250px;
+    height: auto;
   }
 
   header > .logo {
     position: relative;
     top: 10px;
+    margin: 0 auto;
   }
   header > label {
     display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    margin-top: 1em;
     cursor: pointer;
   }
   header nav {
